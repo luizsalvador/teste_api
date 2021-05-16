@@ -42,3 +42,14 @@ test004 - Valida se o usuário foi editado corretamente - método: GET
 test005 - Realiza a exclusão de um usuário - método: DELETE
 
 test006-  Valida se o usuário não está mais no banco - método: GET
+
+![image](https://user-images.githubusercontent.com/55900972/118410196-9c49d000-b664-11eb-8251-a152f8dd8f6c.png)
+
+Conforme são executados os cenários de testes, serão demonstrados os nomes dos usuários cadastrados, editados e excluídos.
+
+A suíte de teste pode ser executada a qualquer momento, pois sempre será cadastrado um novo usuário e este será editado e logo após excluído. Portanto, caso ocorra a falha/erro durante a execução de algum cenário, a suíte de teste deverá ser reiniciada. Esta foi a estratégias escolhida, levando em consideração dois itens:
+
+1° - O banco reinicia a cada 3 horas, fazendo o restore com os dados originais, portanto caso a suíte de testes falhe, os usuários serão apagados com o restore. 
+
+2° - Os cenários foram colocados em uma só suite de teste (class), pois caso ocorra um erro na API que realiza o POST, todas as suítes falharão para o cadastro de usuário. 
+
