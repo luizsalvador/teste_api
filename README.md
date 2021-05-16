@@ -1,4 +1,4 @@
-# teste_API
+# teste_api
 Projeto que valida o cadastro, edição e exclusão de um usuário, via API, utilizando como ferramenta o Rest Assured/Junit. 
 
 # Pré-requisitos:
