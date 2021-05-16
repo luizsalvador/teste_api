@@ -51,5 +51,5 @@ A suíte de teste pode ser executada a qualquer momento, pois sempre será cadas
 
 1° - O banco reinicia a cada 3 horas, fazendo o restore com os dados originais, portanto caso a suíte de testes falhe, os usuários serão apagados com o restore. 
 
-2° - Os cenários foram colocados em uma só suite de teste (class), pois caso ocorra um erro na API que realiza o POST, todas as suítes falharão para o cadastro de usuário. 
+2° - Os cenários foram colocados em uma só suite de teste (class), pois caso ocorra um erro na API que realiza o POST, todas as suítes falharão para o cadastro de usuário. Por este motivo foi utilizado uma única suíte e não várias suítes.
 
