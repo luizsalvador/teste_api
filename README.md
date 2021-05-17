@@ -1,12 +1,35 @@
 # teste_api
-Projeto que valida o cadastro, edição e exclusão de um usuário, via API, utilizando como ferramenta o Rest Assured/Junit. 
+Projeto que valida o cadastro, edição e exclusão de um usuário, via API, utilizando como ferramenta o Rest Assured/Junit/Mavin. 
 
-# Pré-requisitos:
+## Pré-requisitos:
 JDK do java 8 -  https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
 
 Eclipse IDE for Java Developers - https://www.eclipse.org/downloads/packages/
 
-# Estrutura do projeto
+## Como abrir e executar o projeto:
+
+Após clonar o projeto do git;
+
+Verificar se o plugin "m2" está instalado, em: help > About Eclipse; 
+
+![image](https://user-images.githubusercontent.com/55900972/118418176-b6e46f00-b68d-11eb-9054-47551f68e4d5.png)
+
+Importar o projeto: file > import
+
+Selecionar o Maven > Existing maven Project 
+
+![image](https://user-images.githubusercontent.com/55900972/118418333-6f121780-b68e-11eb-8f36-e2be186e41b8.png)
+
+Informar a pasta onde foi clonado o repositório 
+
+![image](https://user-images.githubusercontent.com/55900972/118418532-26a72980-b68f-11eb-8d20-42f7e7190622.png)
+
+Para executar os testes basta clicar com o botão direito em cima da class "UsuarioTest" > Run as > JUinit Test
+
+![image](https://user-images.githubusercontent.com/55900972/118418647-987f7300-b68f-11eb-8a77-98196591b1a8.png)
+
+
+## Estrutura do projeto
 
 src/main/java
 
@@ -23,7 +46,7 @@ Os testes invocam as API do ServeRest que é um servidor REST que simula uma loj
 ![image](https://user-images.githubusercontent.com/55900972/118372190-bad99980-b586-11eb-8a42-a7f5d8550974.png)
 
 
-# Objetivo do teste de API
+## Objetivo do teste de API
 Validar o cadastro, edição e exclusão de um usuário, via API
 
 Existem 6 testes:
