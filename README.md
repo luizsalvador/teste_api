@@ -45,6 +45,10 @@ Os testes invocam as API do ServeRest que é um servidor REST que simula uma loj
 
 ![image](https://user-images.githubusercontent.com/55900972/118372190-bad99980-b586-11eb-8a42-a7f5d8550974.png)
 
+Os métodos da class "AuxiliaryMethods" não estão sendo utilizados, pois tive problemas para importar eles na class de teste "UsuarioTest". Por este motivo eles estão duplicados como private na class "UsuarioTest".
+
+![image](https://user-images.githubusercontent.com/55900972/118424484-b8b62e80-b69d-11eb-83db-a5a7fa1286a3.png)
+
 
 ## Objetivo do teste de API
 Validar o cadastro, edição e exclusão de um usuário, via API
